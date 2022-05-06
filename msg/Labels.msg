@@ -1,2 +1,2 @@
 Header header
-String[] data
+string[] data
