@@ -7,6 +7,7 @@ add_message_files(
     DIRECTORY msg
     FILES
     Common.msg
+    CommonTimed.msg
     Labels.msg
     )
 
