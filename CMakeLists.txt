@@ -8,6 +8,7 @@ add_message_files(
     FILES
     Common.msg
     CommonTimed.msg
+    PointWrenchTimed.msg
     Labels.msg
     )
 
