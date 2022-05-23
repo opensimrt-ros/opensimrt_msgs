@@ -1,4 +1,4 @@
 Header header
 float64 time
-Wrench wrench
-Point point
+geometry_msgs/Wrench wrench
+geometry_msgs/Point point
