@@ -12,6 +12,12 @@ add_message_files(
     Labels.msg
     )
 
+add_service_files(
+    DIRECTORY srv
+    FILES
+    LabelsSrv.srv
+
+)
  generate_messages(
    DEPENDENCIES
    std_msgs  
