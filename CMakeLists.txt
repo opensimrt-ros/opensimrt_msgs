@@ -9,6 +9,7 @@ add_message_files(
     Common.msg
     CommonTimed.msg
     PointWrenchTimed.msg
+    PosVelAccTimed.msg
     Labels.msg
     )
 
