@@ -2,20 +2,17 @@
 <package format="2">
   <name>opensimrt_msgs</name>
   <version>0.0.2</version>
-  <description>The opensimrt_msgs package. This package has common opensimrt messages used to communicate between different opensimrt nodes. Only opensimrt_core, opensimrt_bridge and osrt_ros are using this currently and we aim to make opensimrt_core non-existant (to use just OpenSimRT as a dependency), so in the end it should be only opensimrt_bridge and osrt_ros to use this. In a more distant future this whole package should be made obsolete by publishing appropriate standart ros messages.</description>
+  <description>The common opensimrt messages used to communicate between different opensimrt nodes. Only opensimrt_core, opensimrt_bridge and osrt_ros are using this currently and we aim to make opensimrt_core non-existant (to use just OpenSimRT as a dependency), so in the end it should be only opensimrt_bridge and osrt_ros to use this. In a more distant future this whole package should be made obsolete by publishing appropriate standart ros messages.</description>
 
   <maintainer email="frekle@kth.se">Frederico Klein</maintainer>
 
   <license>MIT</license>
 
   <buildtool_depend>catkin</buildtool_depend>
-
-  <build_depend>message_generation</build_depend>
-  <build_depend>geometry_msgs</build_depend>
-  <build_depend>std_msgs</build_depend>
-
   <exec_depend>message_runtime</exec_depend>
-  <exec_depend>geometry_msgs</exec_depend>
-  <exec_depend>std_msgs</exec_depend>
+  <build_depend>message_generation</build_depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+
 	 
 </package>

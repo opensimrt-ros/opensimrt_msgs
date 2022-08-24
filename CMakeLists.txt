@@ -1,31 +1,38 @@
 cmake_minimum_required(VERSION 3.0.2)
 project(opensimrt_msgs)
 
-find_package(catkin REQUIRED message_generation std_msgs geometry_msgs)
+find_package(catkin REQUIRED COMPONENTS 
+	geometry_msgs
+	message_generation 
+	std_msgs 
+	)
 
 add_message_files(
-    DIRECTORY msg
-    FILES
-    Common.msg
-    CommonTimed.msg
-    PointWrenchTimed.msg
-    PosVelAccTimed.msg
-    Labels.msg
-    )
+	DIRECTORY msg
+	FILES
+	Common.msg
+	CommonTimed.msg
+	Labels.msg
+	PointWrenchTimed.msg
+	PosVelAccTimed.msg
+	)
 
 add_service_files(
-    DIRECTORY srv
-    FILES
-    LabelsSrv.srv
+	DIRECTORY srv
+	FILES
+	LabelsSrv.srv
 
-)
- generate_messages(
-   DEPENDENCIES
-   std_msgs  
-   geometry_msgs
-   )
+	)
+generate_messages(
+	DEPENDENCIES
+	geometry_msgs
+	std_msgs  
+	)
 
 catkin_package(
-  CATKIN_DEPENDS message_runtime std_msgs geometry_msgs
-)
+	CATKIN_DEPENDS 
+	geometry_msgs
+	message_runtime 
+	std_msgs 
+	)
 
