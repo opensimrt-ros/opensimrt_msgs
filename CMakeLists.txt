@@ -21,7 +21,7 @@ add_service_files(
 	DIRECTORY srv
 	FILES
 	LabelsSrv.srv
-
+	SetFileNameSrv.srv
 	)
 generate_messages(
 	DEPENDENCIES
