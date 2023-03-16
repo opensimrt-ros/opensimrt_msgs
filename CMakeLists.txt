@@ -12,6 +12,8 @@ add_message_files(
 	FILES
 	Common.msg
 	CommonTimed.msg
+	Event.msg
+	Events.msg
 	Labels.msg
 	PointWrenchTimed.msg
 	PosVelAccTimed.msg
