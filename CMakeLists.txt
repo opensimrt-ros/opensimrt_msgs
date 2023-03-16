@@ -11,9 +11,9 @@ add_message_files(
 	DIRECTORY msg
 	FILES
 	Common.msg
-	CommonTimed.msg
 	Event.msg
 	Events.msg
+	CommonTimed.msg
 	Labels.msg
 	PointWrenchTimed.msg
 	PosVelAccTimed.msg
