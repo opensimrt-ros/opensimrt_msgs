@@ -19,6 +19,9 @@ add_message_files(
 	PosVelAccTimed.msg
 	Dual.msg
 	DualPos.msg
+	OpenSimData.msg
+	MultiMessage.msg
+	MultiMessagePosVelAcc.msg
 	)
 
 add_service_files(
