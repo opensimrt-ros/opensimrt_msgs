@@ -17,6 +17,8 @@ add_message_files(
 	Labels.msg
 	PointWrenchTimed.msg
 	PosVelAccTimed.msg
+	Dual.msg
+	DualPos.msg
 	)
 
 add_service_files(
