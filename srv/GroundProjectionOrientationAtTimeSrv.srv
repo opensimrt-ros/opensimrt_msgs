@@ -1,0 +1,6 @@
+# Custom service for obtaining orientation of a point projected onto the ground at a specific time
+
+geometry_msgs/PointStamped point_stamped  # Input: Point stamped geometry
+---
+geometry_msgs/Quaternion orientation  # Output: Orientation information
+

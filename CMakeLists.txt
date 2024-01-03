@@ -29,6 +29,7 @@ add_service_files(
 	FILES
 	LabelsSrv.srv
 	SetFileNameSrv.srv
+	GroundProjectionOrientationAtTimeSrv.srv
 	)
 generate_messages(
 	DEPENDENCIES
